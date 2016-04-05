@@ -1,0 +1,21 @@
+
+<div id="location-carousel">
+		<div class="hero-unit" id="img-1"></div>
+		<div class="hero-unit" id="img-2"></div>
+		<div class="hero-unit" id="img-3"></div>
+		<div class="hero-unit" id="img-4"></div>
+		<div class="hero-unit" id="img-5"></div>
+		<div class="hero-unit" id="img-6"></div>
+		<div class="hero-unit" id="img-7"></div>
+		<div class="hero-unit" id="img-8"></div>
+		<div class="hero-unit" id="img-9"></div>
+  </div>
+
+  <div id="heading"><div>Flytinerary</div>
+  <% if session[:user_id] == nil %>
+    <a href="/sessions/new"><button type="button" class="btn btn-primary get-started">Get Started!</button></a>
+    </div>
+  <% else %>
+    <a href="/itineraries/new"><button type="button" class="btn btn-primary get-started">Get Started!</button></a>
+    </div>
+  <% end %>

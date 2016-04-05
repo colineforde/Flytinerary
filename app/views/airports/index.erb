@@ -1,0 +1,3 @@
+<% @airports.each do |airport| %>
+	<%= link_to(airport.name, airport_url(airport.id)) %><br>
+<% end %>

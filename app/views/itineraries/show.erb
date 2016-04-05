@@ -1,0 +1,16 @@
+<div class="container">
+	<h3><%=@itinerary.name%></h3>
+		<label>Places you're going:</label>
+
+		<label>Please insert the number of days per destination.</label>
+		<div>
+			You have <b id="days-remaining"><%= @itinerary.num_of_days_remaining %></b> days remaining. 
+		</div>
+		<div id="sortable">
+		<%@itinerary.destinations.each do |destination| %>
+		<div class="ui-state-default airport" id="<%=destination.airport.id%>"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span><%= destination.airport.city %>, <%= destination.airport.country %>  <input id="<%=destination.airport.id%>" class="num_of_days" type="number" min="0" max="<%=@itinerary.trip_length%>" value="<%=destination.num_of_days%>"> days</div>
+		<% end %>
+		</div>
+		<button class="btn btn-default" id="find-flights" <%if @itinerary.num_of_days_remaining != 0 %> disabled="true" <%end%>><a href="/itineraries/<%=@itinerary.id%>/tickets">Search available flights</a></button>
+	<div id="<%=@itinerary.id%>" class="map"></div>
+</div>

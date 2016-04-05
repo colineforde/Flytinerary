@@ -1,0 +1,10 @@
+<%=@airport.name%>, <%=@airport.country%><br>
+
+<iframe
+  width="600"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=<%=ENV["GOOGLE_API_KEY"]%>
+    &q=<%=@airport.latitude%>,<%=@airport.longitude%>&zoom=6&maptype=satellite" allowfullscreen>
+</iframe>
+

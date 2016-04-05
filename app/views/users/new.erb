@@ -1,0 +1,16 @@
+<div class="container">
+<p>Please register below.</p>
+<% if @errors %>
+    <% @errors.each do |error| %>
+     <%= error %>
+    <% end %>
+<% end %>
+
+<form action="/users" method="POST">
+	<p>Email: <input type="text" name="email"></p>
+	<p>Password: <input type="password" name="password"></p>
+	<input type="submit" value="Sign Up">
+</form>
+
+Already a registered user? Sign in <a href="/sessions/new">here.</a> 
+</div>

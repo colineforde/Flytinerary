@@ -1,0 +1,437 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "eBJXPDdjvK4zDogeE0JJp3",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LAX",
+     "city": "LAX",
+     "name": "Los Angeles International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SFO",
+     "city": "SFO",
+     "name": "San Francisco International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LAX",
+     "name": "Los Angeles"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SFO",
+     "name": "San Francisco"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "ZP",
+     "name": "US Flight Segment Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_1",
+     "name": "US Transportation Tax"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "VX",
+     "name": "Virgin America Inc."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD69.00",
+    "id": "faqkIcj6Te2V3Sll2SskwJ001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "VX",
+         "number": "922"
+        },
+        "id": "G4Yqn7Md2QltVrzT",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFaJowO2NvJzM2Vd",
+          "aircraft": "320",
+          "arrivalTime": "2014-09-19T08:15-07:00",
+          "departureTime": "2014-09-19T07:00-07:00",
+          "origin": "SFO",
+          "destination": "LAX",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 75,
+          "onTimePerformance": 93,
+          "mileage": 337,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A+yi0+pn2eL1pf3nKwZazHIVDvsw2Ru8zx5LByC/kQaA",
+        "carrier": "VX",
+        "origin": "SFO",
+        "destination": "LAX",
+        "basisCode": "S21NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A+yi0+pn2eL1pf3nKwZazHIVDvsw2Ru8zx5LByC/kQaA",
+        "segmentId": "G4Yqn7Md2QltVrzT",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD53.95",
+      "saleFareTotal": "USD53.95",
+      "saleTaxTotal": "USD15.05",
+      "saleTotal": "USD69.00",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_1",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD4.05"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD2.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO VX LAX 53.95S21NR USD 53.95 END ZP SFO XT 4.05US 4.00ZP 2.50AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2014-02-05T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD79.00",
+    "id": "faqkIcj6Te2V3Sll2SskwJ001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "VX",
+         "number": "922"
+        },
+        "id": "G4Yqn7Md2QltVrzT",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFaJowO2NvJzM2Vd",
+          "aircraft": "320",
+          "arrivalTime": "2014-09-19T08:15-07:00",
+          "departureTime": "2014-09-19T07:00-07:00",
+          "origin": "SFO",
+          "destination": "LAX",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 75,
+          "onTimePerformance": 93,
+          "mileage": 337,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A+yi0+pn2eL1pf3nKwZazHIVDvsw2Ru8zx5LByC/kQaA",
+        "carrier": "VX",
+        "origin": "SFO",
+        "destination": "LAX",
+        "basisCode": "S21NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A+yi0+pn2eL1pf3nKwZazHIVDvsw2Ru8zx5LByC/kQaA",
+        "segmentId": "G4Yqn7Md2QltVrzT",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD53.95",
+      "saleFareTotal": "USD53.95",
+      "saleTaxTotal": "USD15.05",
+      "saleTotal": "USD69.00",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_1",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD4.05"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD2.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO VX LAX 53.95S21NR USD 53.95 END ZP SFO XT 4.05US 4.00ZP 2.50AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2014-02-05T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD99.00",
+    "id": "faqkIcj6Te2V3Sll2SskwJ001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 75,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 75,
+        "flight": {
+         "carrier": "VX",
+         "number": "922"
+        },
+        "id": "G4Yqn7Md2QltVrzT",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFaJowO2NvJzM2Vd",
+          "aircraft": "320",
+          "arrivalTime": "2014-09-19T08:15-07:00",
+          "departureTime": "2014-09-19T07:00-07:00",
+          "origin": "SFO",
+          "destination": "LAX",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 75,
+          "onTimePerformance": 93,
+          "mileage": 337,
+          "secure": true
+         },
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFaJowO2NvJzM2Vd",
+          "aircraft": "320",
+          "arrivalTime": "2014-09-23T08:15-07:00",
+          "departureTime": "2014-09-23T07:00-07:00",
+          "origin": "LAX",
+          "destination": "SFO",
+          "originTerminal": "2",
+          "destinationTerminal": "3",
+          "duration": 75,
+          "onTimePerformance": 93,
+          "mileage": 337,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A+yi0+pn2eL1pf3nKwZazHIVDvsw2Ru8zx5LByC/kQaA",
+        "carrier": "VX",
+        "origin": "SFO",
+        "destination": "LAX",
+        "basisCode": "S21NR"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A+yi0+pn2eL1pf3nKwZazHIVDvsw2Ru8zx5LByC/kQaA",
+        "segmentId": "G4Yqn7Md2QltVrzT",
+        "freeBaggageOption": [
+         {
+          "kind": "qpxexpress#freeBaggageAllowance",
+          "pieces": 0
+         }
+        ]
+       }
+      ],
+      "baseFareTotal": "USD53.95",
+      "saleFareTotal": "USD53.95",
+      "saleTaxTotal": "USD15.05",
+      "saleTotal": "USD69.00",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_1",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD4.05"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD2.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "ZP",
+        "chargeType": "GOVERNMENT",
+        "code": "ZP",
+        "country": "US",
+        "salePrice": "USD4.00"
+       }
+      ],
+      "fareCalculation": "SFO VX LAX 53.95S21NR USD 53.95 END ZP SFO XT 4.05US 4.00ZP 2.50AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2014-02-05T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}

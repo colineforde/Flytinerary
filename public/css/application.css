@@ -1,0 +1,142 @@
+
+#images {
+  padding-top: 20px;
+  text-align: center;
+  margin: 3px solid;
+}
+
+#text {
+  color: #fcf7bf;
+}
+
+.container-fluid {
+    background-color: #2a6b8b;
+}
+
+#new-trip {
+  border-top: 2px solid black;
+  color: white;
+}
+
+.destinations-wrapper select{
+width: 400px;
+}
+
+.home-airport-wrapper select{
+width: 400px;
+}
+
+.select_dates {
+  width: 50%;
+}
+
+#start_date {
+  margin-right: 180px;
+}
+
+.map {
+        height: 500px;
+        width: 60%;
+      }
+
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+
+#sortable { 
+  list-style-type: none; 
+  margin: 0; padding: 0; 
+  width: 30%; 
+}
+
+#sortable div span { 
+  position: absolute; 
+  margin-left: -1.3em; 
+}
+
+#num_of_days {
+  width: 30px;
+}
+
+/* home page css */
+
+.get-started {
+	font-size: 30px;
+	 background: rgba(63, 127, 191, 0.7);
+   position: relative;
+   top: -90px;
+}
+
+#heading{
+	color: white;
+	font-family: Josefin Sans;
+    font-size: 150px;
+    text-align: center;
+    position: relative;
+    top: -600px;
+}
+
+.hero-unit#img-1 {
+    background-image:url('http://i.imgur.com/Pd5Zu4l.jpg?1');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:750px;
+  }
+
+  .hero-unit#img-2 {
+    background-image:url('http://i.imgur.com/1AsZ7W7.jpg?1');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:750px;
+  }
+
+   .hero-unit#img-3 {
+    background-image:url('http://i.imgur.com/QtCpylB.jpg?1');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:750px;
+  }
+
+.hero-unit#img-4 {
+    background-image:url('http://i.imgur.com/yU8Ftp0.jpg?1');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:750px;
+  }
+  .hero-unit#img-5 {
+    background-image:url('http://i.imgur.com/uZjl3I2.jpg?1');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:750px;
+  }
+  .hero-unit#img-6 {
+    background-image:url('http://i.imgur.com/D1iWAeb.jpg?1');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:750px;
+  }
+  .hero-unit#img-7 {
+    background-image:url('http://i.imgur.com/Qol6XcV.jpg?1');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:750px;
+  }
+  .hero-unit#img-8 {
+    background-image:url('http://i.imgur.com/WJgcMUR.jpg?1');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:750px;
+  }
+
+  .hero-unit#img-9 {
+    background-image:url('http://i.imgur.com/Pb1WWEa.jpg?1');
+    background-size:cover;
+    background-color: #EEEEEE;
+    height:750px;
+  }
+
+#location-carousel {
+	position: relative;
+}

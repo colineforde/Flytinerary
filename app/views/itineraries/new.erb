@@ -1,0 +1,29 @@
+<div class="container" id="new-it"> 
+Please select your home airport and destinations below.<br>
+
+	<form  id="new-itinerary" action="/itineraries" method="POST">
+		<label>Itinerary Name:</label><br />
+		<input type="text" name="itinerary_name"><br />
+		<label>Home Airport:</label> <div class="home-airport-wrapper">
+			<select class="home-airport" style="width: 50%" name="home_airport_id">
+			</select>
+		</div>
+		<label>Destinations:</label><div class="destinations-wrapper">
+			<select class="destinations" style="width: 50%" multiple="multiple" name="airport_ids[]">
+			</select>
+		</div>
+		<!-- <label id="start_date">Start Date:</label> <label>End Date:</label> -->
+		<div class="select_dates">
+			<label>Start Date:</label>
+			<input name="start_date" class="input-daterange">
+			<label>End Date:</label>
+			<input name="end_date" class="input-daterange">
+		</div><br>
+		<button id="create_itinerary" class="btn btn-default">Create Itinerary</button>
+	</form>
+	<div id="images">
+		<img src="http://i.imgur.com/rhbufpx.jpg?1" width="350" height="300" style="margin-right: 32px">
+		<img src="http://i.imgur.com/gx7YPBf.jpg?1" width="350" height="300">
+		<img src="http://i.imgur.com/jUxQESV.jpg?1" width="350" height="300" style="margin-left: 32px">
+	</div>
+</div>

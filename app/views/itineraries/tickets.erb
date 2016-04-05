@@ -1,0 +1,39 @@
+<% if  @available_flights["error"] %>
+	<%= @available_flights["error"]["errors"][0]["message"]%>
+<% else %>
+	<div class="container"><h5>See the available flight options below:</h5><hr/> 
+	<div id="flight">
+		<%@available_flights['trips']['tripOption'].uniq.each_with_index do |option, i| %>
+			<div class="col-lg-2">Option #<%=i +1%><br>Price:<%=option['saleTotal'] %></div>
+			<% option['slice'].each do |slice| %>
+				<% slice['segment'].each do |segment| %>
+				
+				<div>
+					<% segment['leg'].each do |leg| %>
+
+						<div class="col-lg-2">Origin:<%= leg['origin'] %> </div>
+					
+						<div class="col-lg-2">Depart: <%=DateTime.parse(leg['departureTime']).strftime('%m-%d-%Y %I:%M %p')%></div>
+					
+					</div>
+					
+					<div> 
+					
+						<div class="col-lg-2">Destination: <%=leg['destination'] %></div>
+					
+						<div class="col-lg-2">Arrive: <%=DateTime.parse(leg['arrivalTime']).strftime('%m-%d-%Y %I:%M %p')%> </div> 
+					
+
+						<div class="col-lg-2">Flight Duration: <%=leg['duration'] %> minutes</div>
+					
+					<% end %>
+				
+				</div>
+				
+					<% end %>
+				
+				<% end %>
+		<% end %>
+		</div><br>
+	</div>
+<%end%>
